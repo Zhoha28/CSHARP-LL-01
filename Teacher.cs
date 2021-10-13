@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SchoolLibrary
+{
+   public class Teacher : Person
+    {
+      
+        public string subject { get; set; }
+
+        //TODO - fix the implementation later
+        public override float ComputeGradeAverage()
+        {
+            return 0;
+        }
+    }
+}
